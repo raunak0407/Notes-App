@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+html,body{
+    margin: 0;
+    padding:0;
+    overflow-y:  auto;
+    height: 100%;
+}
+
+.notes{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    height: 97%;
+}
+
+
+.notes-add{
+    margin-top:5%;
+    background-color: rgb(38, 141, 93);
+    border-radius: 7px;
+    border:0;
+    height: 8%;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.notes-preview{
+    display: flex;
+    flex-direction: column;
+}
+
+.notes-sidebar{
+    margin-left: 1%;
+    height:100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.notes-list-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.note-small-title{
+    font-size: 2rem;
+    
+}
+
+.note-small-body{
+    font-size: 1.5rem;
+}
+
+.note-small-updated{
+    font-style: italic;
+    color:grey;
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 55%;
+}
+
+
+.notes-list-item-selected{
+    background: #eeeeee;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.divider{
+    min-height: 100%;
+    max-height: 100vh;
+    margin: 0;
+}
+
+.notes-preview{
+    flex: 1;
+    margin-right: 2%;
+    
+}
+.notes-title{
+    margin-top: 1%;
+    border: 0;
+    height: 10%;
+    width: 100%;
+    font-size: 4rem;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+::placeholder{
+    color: #c2c2c2;
+}
+
+.notes-body{
+    margin-top:1%;
+    border: 0;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
