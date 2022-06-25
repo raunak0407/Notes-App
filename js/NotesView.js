@@ -73,12 +73,6 @@ export default class NotesView{
 
             notesListContainer.insertAdjacentHTML("beforeend", html)
         })
-        // for(const note in notes){
-        //     // console.log(note.body)
-        //     const html = this._createListItemHTML(note.id, note.title, note.body, new Date(note.updated))
-            
-        //     notesListContainer.insertAdjacentHTML("beforeend", html)
-        // }
     }
 
 }
